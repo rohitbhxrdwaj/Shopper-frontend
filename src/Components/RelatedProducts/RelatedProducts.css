@@ -1,0 +1,23 @@
+.relatedproducts {
+  margin: 80px 170px;
+}
+
+.relatedproducts h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.relatedproducts hr {
+  border: none;
+  height: 2px;
+  background: #e2e2e2;
+  margin-bottom: 40px;
+}
+
+.relatedproducts-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}

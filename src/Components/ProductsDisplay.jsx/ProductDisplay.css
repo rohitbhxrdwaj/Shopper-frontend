@@ -1,0 +1,141 @@
+.productdisplay {
+  display: flex;
+  margin: 40px 170px;
+  gap: 50px;
+}
+
+/* Left side */
+.productdisplay-left {
+  display: flex;
+  gap: 20px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.productdisplay-img-list img {
+  height: 120px;
+  width: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.productdisplay-img-list img:hover {
+  border-color: #ff4141;
+  transform: scale(1.05);
+}
+
+.productdisplay-main-img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+/* Right side */
+.productdisplay-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+  color: #ff4141;
+}
+
+/* Description */
+.productdisplay-right-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Size selection */
+.productdisplay-right-size-wrapper h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.productdisplay-right-size {
+  display: flex;
+  gap: 15px;
+}
+
+.productdisplay-right-size div {
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.productdisplay-right-size div:hover {
+  border-color: #ff4141;
+  color: #ff4141;
+  font-weight: 600;
+}
+
+/* Button */
+.add-to-cart-btn {
+  padding: 14px 22px;
+  background: #ff4141;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 15px 0;
+}
+
+.add-to-cart-btn:hover {
+  background: #e93b3b;
+}
+
+/* Category + tags */
+.productdisplay-right-category {
+  font-size: 14px;
+  color: #444;
+}
+
+.productdisplay-right-category span {
+  font-weight: 600;
+  margin-right: 5px;
+}
